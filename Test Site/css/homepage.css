@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "TW Cen";
+    src: url('../fonts/LogoFont.ttf');
+    src: url('../fonts/LogoFont.ttf') format('truetype');
+}
+
+.mobilemessage {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 50;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    z-index: 10;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../images/background.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.header-bar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.logo {
+    width: 18.3vh;
+    height: 10.49vh;
+}
+
+nav {
+    flex: 1;
+    padding-left: 8vh;
+}
+
+nav ol li {
+    display: inline-block;
+    list-style: none;
+    margin: 0vh 0.64vh;
+}
+
+nav ol .logo {
+    margin: -0.64vh 0vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 3.2vh;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 0.768vh;
+    padding: 1.28vh 2.56vh;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0.384vh 1.024vh 2.816vh rgba(250, 250, 250, 0.15);
+    cursor: pointer;
+    background: rgb(41, 41, 41);
+    z-index: 2;
+    font-family: 'TW Cen';
+    font-size: 3.4vh;
+    transition-duration: 0.25s;
+}
+
+.btn:hover {
+    background: rgb(50, 50, 50);
+    transform: scale(1.02, 1.02);
+}
+
+.content {
+    margin-top: 7vh;
+    margin-left: 10vh;
+}
+
+.content .about {
+    float: left;
+    width: 59vh;
+    height: 65.5vh;
+    background: rgb(28, 28, 28, 0.5);
+    border-radius: 1.31vh;
+}
+
+.content .about #abouttitle {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 5.24vh;
+    text-align: center;
+    padding-top: 4vh;
+}
+
+.content .about p {
+    padding-top: 2.2vh;
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 3.93vh;
+    padding-left: 2.9vh;
+    padding-right: 2.9vh;
+    overflow-wrap: break-word;
+}
+
+.content .faq {
+    float: left;
+    margin-left: 30vh;
+    width: 70vh;
+    height: 65.5vh;
+    background: rgb(28, 28, 28, 0.5);
+    border-radius: 1.31vh;
+}
+
+.content .faq #faqtitle {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 2.5vh;
+}
+
+.content .faq .question {
+    padding-top: 4vh;
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .faq .answer {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 3vh;
+    text-align: center;
+}
+
+.content a {
+    color: #fff;
+    font-weight: bold;
+}

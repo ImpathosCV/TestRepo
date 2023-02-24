@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "TW Cen";
+    src: url('../fonts/LogoFont.ttf');
+    src: url('../fonts/LogoFont.ttf') format('truetype');
+}
+
+.mobilemessage {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 50;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    z-index: 10;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgb(14, 14, 14) 40%, rgb(22, 22, 22));
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 15vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.header-bar {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+}
+
+.logo {
+    width: 18.3vh;
+    height: 10.49vh;
+}
+
+nav {
+    flex: 1;
+    padding-left: 8vh;
+}
+
+nav ol li {
+    display: inline-block;
+    list-style: none;
+    margin: 0vh 0.64vh;
+}
+
+nav ol .logo {
+    margin: -0.64vh 0vh;
+    width: 3vh;
+    height: 3vh;
+}
+
+nav ol li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 3.2vh;
+}
+
+.login {
+    margin: auto;
+    width: 70vh;
+    height: 75vh;
+    background: rgba(41, 40, 40);
+    box-shadow: 0 0 2.816vh rgb(143, 141, 141);
+    border-radius: 1.31vh;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+.login input {
+    margin: auto;
+    display: block;
+    width: 50vh;
+    height: 7vh;
+    border-radius: 1.5vh;
+    padding: 2vh 2vh;
+    border: 0.5vh outset rgba(255, 255, 255, 0.5);
+    background-color: rgb(37, 37, 37);
+    color: white;
+    outline: none;
+    font-family: 'TW Cen';
+    font-size: 3vh;
+    margin-bottom: 4vh;
+}
+
+.login #title {
+    color: #fff;
+    font-family: 'TW Cen';
+    font-size: 7vh;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5vh;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 0.768vh;
+    padding: 1.28vh 2.56vh;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0.384vh 1.024vh 2.816vh rgba(250, 250, 250, 0.15);
+    cursor: pointer;
+    background: rgb(41, 41, 41);
+    z-index: 2;
+    font-family: 'TW Cen';
+    font-size: 3.4vh;
+    transition-duration: 0.25s;
+    width: 49vh;
+    margin-bottom: 4vh;
+    outline: solid;
+}
+
+.btn:hover {
+    background: rgb(50, 50, 50);
+    transform: scale(1.02, 1.02);
+}
+
+.login #create {
+    margin-top: 4.5vh;
+    width: 25vh;
+    outline-width: 0.75vh;
+}
+
+.login #linked {
+    display: inline-block;
+    border-radius: 0.768vh;
+    padding: 1.28vh 2.56vh;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0.384vh 1.024vh 2.816vh rgba(250, 250, 250, 0.15);
+    cursor: default;
+    background: rgb(41, 41, 41);
+    z-index: 2;
+    font-family: 'TW Cen';
+    font-size: 3.4vh;
+    transition-duration: 0.25s;
+    width: 49vh;
+    margin-bottom: 4vh;
+    outline: solid;
+}
